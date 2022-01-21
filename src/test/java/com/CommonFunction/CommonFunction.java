@@ -23,5 +23,11 @@ public class CommonFunction {
 	{
 		localElement.clear();
 	}
+	
+	public static void gettext(WebElement localElement)
+	{
+		localElement.getText();
+		
+	}
 
 }
